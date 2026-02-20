@@ -18,11 +18,46 @@
             "assets": [
               {
                 "glob": "**/*",
+                "input": "src/assets",
+                "output": "assets"
+              },
+              {
+                "glob": "**/*",
                 "input": "public"
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/stylesheet/style.css",
+              "src/assets/stylesheet/shortcodes.css",
+              "src/assets/stylesheet/owl.carousel.css",
+              "src/assets/stylesheet/font-awesome.css",
+              "src/assets/stylesheet/animate.css",
+              "src/assets/stylesheet/colors/color1.css",
+              "src/assets/stylesheet/bootstrap.css",
+              "src/assets/stylesheet/responsive.css",
+              "src/assets/revolution/css/layers.css",
+              "src/assets/revolution/css/settings.css"
+            ],
+            "scripts": [
+              "src/assets/javascript/jquery.min.js",
+              "src/assets/javascript/bootstrap.min.js",
+              "src/assets/revolution/js/jquery.themepunch.tools.min.js",
+              "src/assets/revolution/js/jquery.themepunch.revolution.min.js",
+              "src/assets/revolution/js/slider_v1.js",
+              "src/assets/javascript/gmap3.min.js",
+              "src/assets/javascript/imagesloaded.min.js",
+              "src/assets/javascript/jquery-countTo.js",
+              "src/assets/javascript/jquery-validate.js",
+              "src/assets/javascript/jquery.bxslider.min.js",
+              "src/assets/javascript/jquery.cookie.js",
+              "src/assets/javascript/jquery.easing.js",
+              "src/assets/javascript/jquery.flexslider-min.js",
+              "src/assets/javascript/jquery.isotope.min.js",
+              "src/assets/javascript/owl.carousel.js",
+              "src/assets/javascript/parallax.js",
+              "src/assets/javascript/waypoints.min.js",
+              "src/assets/javascript/main.js"
             ]
           },
           "configurations": {
@@ -81,5 +116,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "8e2e695b-f955-41e8-991c-84b4e1cf8976"
   }
 }
