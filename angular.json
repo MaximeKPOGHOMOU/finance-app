@@ -57,6 +57,12 @@
               "src/assets/javascript/owl.carousel.js",
               "src/assets/javascript/parallax.js",
               "src/assets/javascript/waypoints.min.js",
+              "src/assets/revolution/js/extensions/revolution.extension.parallax.min.js",
+              "src/assets/revolution/js/extensions/revolution.extension.slideanims.min.js",
+              "src/assets/revolution/js/extensions/revolution.extension.layeranimation.min.js",
+              "src/assets/revolution/js/extensions/revolution.extension.navigation.min.js",
+              "src/assets/revolution/js/extensions/revolution.extension.parallax.min.js",
+              "src/assets/revolution/js/extensions/revolution.extension.carousel.min.js",
               "src/assets/javascript/main.js"
             ]
           },

@@ -1,0 +1,51 @@
+.iconbox-slider .owl-nav {
+  position: absolute;
+  top: 50%;
+  right: 10px;  /* ajuste selon besoin */
+  transform: translateY(-50%);
+  display: flex;
+  gap: 10px;
+}
+
+.iconbox-slider .owl-nav button.owl-prev,
+.iconbox-slider .owl-nav button.owl-next {
+  background: #007bff;
+  color: #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.slides .owl-nav button {
+  background: #007bff;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.slides .owl-nav button i {
+  font-size: 14px;
+}
+
+.slides .owl-nav button:hover {
+  background: #0056b3;
+}
+/* ===== SUPPRIMER LE SOULIGNEMENT DU MENU ===== */
+header#header a,
+header#header a:hover,
+header#header a:focus,
+header#header a:active {
+    text-decoration: none !important;
+}
+
+/* Couleur normale */
+#mainnav .menu > li > a {
+    color: #222;
+}
+
+/* Effet hover propre */
+#mainnav .menu > li > a:hover {
+    color: #1f3c88; /* change la couleur si tu veux */
+}
